@@ -1,0 +1,126 @@
+/* Отступы */
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th,
+  td {
+    padding: 20px;
+  }
+
+/* Типографика */
+
+
+.new-rocker-regular {
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+html {
+  font-family:"New Rocker", system-ui;
+}
+
+thead th,
+tfoot th {
+  font-family: "New Rocker", system-ui;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+/* Графика и цвета */
+
+thead,
+tfoot {
+  background: url(../img/rock-music-concert-background-illustration-ai-generative-free-photo.jpg);
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+thead th,
+tfoot th,
+tfoot td {
+  background: linear-gradient(to bottom, rgb(0 0 0 / 10%), rgb(0 0 0 / 50%));
+  border: 3px solid rgb(77, 48, 77);
+}
+
+/* Полосатая зебра */
+
+tbody tr:nth-child(odd) {
+  background-color: #2d230546;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #a257a2;
+}
+
+tbody tr {
+  background-image: url(../img/863620-new-rock-music-wallpaper-1920x1080.jpg);
+}
+
+table {
+  background-color: #ff33cc;
+}
+
+/* Заголовок */
+
+caption {
+  font-family: "Skranji", system-ui;
+  padding: 20px;
+  font-style: italic;
+  caption-side: bottom;
+  color: #666;
+  text-align: right;
+  letter-spacing: 1px;
+  font-family: "Skranji", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.skranji-regular {
+  font-family: "Skranji", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.skranji-bold {
+  font-family: "Skranji", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
